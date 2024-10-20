@@ -4,17 +4,30 @@
     <title>My Biodata</title>
 </head>
 <style>
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
     th, td {
-        padding: 5px;
+        padding: 3px;
         text-align: left;
     }
+
+
+    tr:nth-child(even) {
+    background-color: rgba(244, 207, 224, 0.679);}
+
+    tr:nth-child(odd) {
+  background-color: rgba(254, 249, 242, 0.4);
+}
+
 </style>
 <body>
     <h2>My Biodata</h2>
-    <table border="1">
+    <table style="width: 50%">
         <tr>
             <th>Name</th>
-            <td>Nurulaina Nisa binti Sahanuan</td>
+            <td >Nurulaina Nisa binti Sahanuan</td>
             <td><img src="example.jpg"
                 style="height: 120px; width: 170px;"></td>
         </tr>
@@ -26,34 +39,34 @@
             <th>Religion</th>
             <td colspan="2">Islam</td>
         </tr>
-        <tr>
+        <tr >
             <th rowspan="4">Address</th>
-            <th>Street</th>
+            <th style="width: 30%">Street</th>
             <td>1,Jalan Subang 4</td>   
         </tr>
         <tr>
-            <th>town</th>
+            <th style="width: 30%">Town</th>
             <td>Taman Kobena</td>
         </tr>
         <tr>
-            <th>District</th>
+            <th style="width: 30%">District</th>
             <td>Johor Bahru</td>
         </tr>
         <tr>
-            <th>State</th>
+            <th style="width: 30%">State</th>
             <td>Johor</td>
         </tr>
         <tr>
             <th rowspan="3">Contact</th>
-            <th>Mobile Phone</th>
+            <th style="width: 30%">Mobile Phone</th>
             <td>011 11847944</td>
         </tr>
         <tr>
-            <th>Social Media</th>
+            <th style="width: 30%">Social Media</th>
             <td>nsavllera@gmail.com</td>
         </tr>
         <tr>
-            <th>Website</th>
+            <th style="width: 30%">Website</th>
             <td>https://nsavllera.github.io/webdev_lab2/</td>
         </tr>
         <tr>
@@ -70,7 +83,7 @@
         </tr>
         <tr>
             <th>Future Plan in 2025</th>
-            <td colspan="2"></td>
+            <td colspan="2">To Pass the Final Year Project with Excellence</td>
         </tr>
 
     </table>
